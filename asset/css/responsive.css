@@ -1,0 +1,111 @@
+/*------------------ High_Tablet ---------------------------*/
+
+@media screen and (min-width:778px) and (max-width:1024px) {
+        .footer-top img {
+        margin: 0px auto;
+        width: 100px;
+    }
+    .main-menu ul.navigation li {
+    padding: 20px 13px 0px 0;
+}
+    .single-slider-item h1 {
+        font-size: 30px
+    }
+    .single-slider-item h2 {
+        font-size: 22px
+    }
+    .single-slider-item {
+        margin-top: 30px;
+    }
+    .service-content {
+        margin: 20px auto;
+        padding-top: 20px ;
+    }
+    
+    .contact-bg-2{
+    padding-right: 50px;
+        overflow: hidden;
+    }
+}
+
+
+/*------------------ Tablet -----------------------------*/
+
+@media screen and (min-width:50px) and (max-width:777px) {
+    .img-100 {
+        width: 100%;
+    }
+    .slicknav_menu {
+        display: block;
+        position: fixed;
+        width: 100%;
+        z-index: 20;
+    }
+    ul.slicknav_nav a {
+        text-transform: capitalize;
+        padding: 10px !important;
+        height: 100%;
+    }
+    .slicknav_menu {
+        font-size: 16px;
+        background: #666;
+        padding: 10px 5px;
+    }
+    ul.slicknav_nav {
+        padding-top: 20px;
+        text-align: center;
+    }
+    ul.slicknav_nav li a {
+        padding: 20px;
+    }
+    .main-menu {
+        display: none;
+    }
+    .responsive {
+        display: block;
+    }
+    a.responsive-logo {
+        position: absolute;
+        top: 0;
+        z-index: 20;
+        display: block;
+        position: fixed;
+    }
+    .header-top-area {
+        display: none;
+    }
+    .single-slider-item h1 {
+        font-size: 20px
+    }
+    .single-slider-item h2 {
+        font-size: 18px
+    }
+    .slider-btn a {
+        background: transparent;
+        padding: 0;
+    }
+    .owl-controls {
+        display: none;
+    }
+    .single-slider-item {
+        margin-top: 30px;
+    }
+    .service-content {
+        margin: 20px auto;
+        max-width: 150px;
+    }
+    .workers .col-md-3 {
+        margin-bottom: 25px;
+    }
+    .footer-top img {
+        margin: 30px auto;
+    }
+}
+
+
+/*------------------ Mobile -----------------------------*/
+
+@media screen and (min-width:50px) and (max-width:501px) {}
+
+
+/* ------------------------------------ Others ---------------------------------------- */
